@@ -1,9 +1,11 @@
 package com.alibaba.java.JDK8_streamDemo;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * map 映射 Stream 新特性
@@ -32,5 +34,7 @@ public class StreamToMapDemo {
         List<String> words = Arrays.asList("aaa", "vvvv", "cccc");
         List<String> newwords = words.stream().map(word -> word.toUpperCase()).collect(Collectors.toList());
         newwords.stream().forEach(System.out::println);
+        List<Integer>  values = Stream.of(1, 2, 3, 4, 5)
+                .collect(LinkedList::new, List::add, List::addAll);
     }
 }
