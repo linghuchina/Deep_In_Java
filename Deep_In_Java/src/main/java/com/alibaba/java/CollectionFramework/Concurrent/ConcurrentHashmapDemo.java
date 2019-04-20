@@ -6,25 +6,11 @@ import java.util.concurrent.Executors;
 
 public class ConcurrentHashmapDemo {
     public static void main(String[] args) {
-        final ConcurrentHashMap<Integer, String> chm = new ConcurrentHashMap<Integer, String>();
-        ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(10);
-        newFixedThreadPool.submit(new Runnable() {
-            @Override
-            public void run() {
-                for(int i = 0; i <1000000; i++){
-                    chm.put(123, "asd"+i);
-
-                }
-            }
-        });
-        newFixedThreadPool.submit(
-                new Runnable() {
-                    @Override
-                    public void run() {
-                        System.out.println(chm.get(123));
-                    }
-                });
-        newFixedThreadPool.shutdown();
+    //思考 为什么concurrentHashmap的value 不能为null
+        // 而hashmap 可以 让value 为null
+        ConcurrentHashMap<String,String>  concurrentHashMap = new ConcurrentHashMap<>();
+        concurrentHashMap.put("1","1");
+        System.out.println(concurrentHashMap.get("2"));
     }
 
 }
