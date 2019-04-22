@@ -37,4 +37,5 @@ class Data extends Object implements Cloneable{
         copy.desc =new String(this.desc);
         return copy;
     }
+    public class innerclass{}
 }
