@@ -13,6 +13,7 @@ import java.util.List;
  * 1。如果能用Iterable就用
  * 2。其次是Collection
  * 3。最后是Abstract 级别的list set 或者别的
+ * 4。千万不要用具体类型：LinkedList，hashmap，arraylist
  * 原因在于越抽象的实现，兼容性越好。
  */
 public class EmptyCollectionDemo {
@@ -27,6 +28,7 @@ public class EmptyCollectionDemo {
         }
         //只读 emptylsit
         //实现java 序列化
+        //
         return  Collections.EMPTY_LIST;
     }
 }
