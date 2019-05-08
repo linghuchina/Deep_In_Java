@@ -1,11 +1,17 @@
 package com.alibaba.java.CollectionFramework;
 
+import java.lang.ref.ReferenceQueue;
 import java.lang.ref.WeakReference;
+import java.util.Arrays;
 
 /**
  * 首先理解什么是引用
  * 1:什么是强引用
  * 2:什么是若引用
+ *
+ * 再思考ReferencehashMap的设计初衷
+ * referenceHashMap 是一个伸缩性的数据结构，当hashmap中的对象是弱可达化，会被滞空。
+ * 所以达到一个增强性能的特性
  */
 public class WeakReferenceMap {
 
@@ -22,7 +28,18 @@ public class WeakReferenceMap {
         String value = "ABC";
         // 弱引用
         WeakReference<User> userWeakReference = new WeakReference<>(new User("lh"));
+        //1： weakreference 继承自 reference
+        //2:  reference 中有一个ReferenceQueue  队列
+        //3: 一个java虚拟机 只有一个referenceQueue
+        //所以结论是 weakreference会有可能被弱可达化
         User user =  userWeakReference.get();
+
+
+        ReferenceQueue queue = new ReferenceQueue();
+        WeakReference<User> userWeakReference1 = new WeakReference<>(new User("lh"),queue);
+        for (int i = 0; i < 100 ; i++) {
+            System.out.println(userWeakReference1.get());
+        }
     }
     private static class User{
         private String name ;
@@ -45,5 +62,6 @@ public class WeakReferenceMap {
                     "name='" + name + '\'' +
                     '}';
         }
+
     }
 }
