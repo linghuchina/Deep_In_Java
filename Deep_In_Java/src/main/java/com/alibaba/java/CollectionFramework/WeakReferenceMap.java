@@ -16,11 +16,11 @@ import java.util.Arrays;
 public class WeakReferenceMap {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         demoWeakHashMap();
     }
 
-    private static void demoWeakHashMap() {
+    private static void demoWeakHashMap() throws InterruptedException {
         //强引用
         // value 变量是局部变量，存放在栈
         //"abc" 是常量，在java 8 之前存在perm区域，java 8+是存放发在meta区
@@ -31,6 +31,7 @@ public class WeakReferenceMap {
         //1： weakreference 继承自 reference
         //2:  reference 中有一个ReferenceQueue  队列
         //3: 一个java虚拟机 只有一个referenceQueue
+        //4：一个static的对象是与其类的classloader 绑定的
         //所以结论是 weakreference会有可能被弱可达化
         User user =  userWeakReference.get();
 
@@ -38,6 +39,7 @@ public class WeakReferenceMap {
         ReferenceQueue queue = new ReferenceQueue();
         WeakReference<User> userWeakReference1 = new WeakReference<>(new User("lh"),queue);
         for (int i = 0; i < 100 ; i++) {
+            Thread.sleep(1000);
             System.out.println(userWeakReference1.get());
         }
     }
