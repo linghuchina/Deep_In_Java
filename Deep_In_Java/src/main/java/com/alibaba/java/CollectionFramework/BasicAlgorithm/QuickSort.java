@@ -53,6 +53,9 @@ public class QuickSort<T extends Comparable<T>> implements Sort{
     public static void main(String[] args) {
         Integer[] arr = {1,4,2,5,10,0};
         Sort sort = new QuickSort();
-        sort.Sort(arr);
+        for (Integer a : arr
+             ) {
+            System.out.println(a);
+        }
     }
 }

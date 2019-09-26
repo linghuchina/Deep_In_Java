@@ -1,6 +1,8 @@
-package com.alibaba.java.util;
+package com.alibaba.java.Excelutil;
+
 import cn.hutool.poi.excel.sax.Excel07SaxReader;
 import cn.hutool.poi.excel.sax.handler.RowHandler;
+import com.alibaba.java.Excelutil.TargetBean;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -22,7 +24,7 @@ public class UtilExcel {
     public   static int startNum=0;
     public static List<Map<String,List<String>>> list = new ArrayList<>();
     //最终得到的bean集合 endlist
-    public static List<TargetBean> endlist= new ArrayList<>();
+    public static ArrayList<TargetBean> endlist= new ArrayList<>();
 
 
     public static void main(String[] args) {

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:5.2:unknown">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/5.2/unknown/5.2-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/5.2/unknown/5.2-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/5.2/unknown/5.2-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

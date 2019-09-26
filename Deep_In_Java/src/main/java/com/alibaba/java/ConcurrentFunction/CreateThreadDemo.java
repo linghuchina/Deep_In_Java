@@ -5,7 +5,7 @@ import java.io.IOException;
 public class CreateThreadDemo {
     public static void main(String[] args) throws IOException {
         //1：怎么创建一个线程
-
+        Thread thread = new Thread();
 
         //2：创建一个进程
         Runtime runtime = Runtime.getRuntime();
