@@ -5,7 +5,7 @@ import java.util.concurrent.CyclicBarrier;
 
 public class CyclicBarrierDemo {
 
-    private static CyclicBarrier cyclicBarrier = new CyclicBarrier(1);
+    private static CyclicBarrier cyclicBarrier = new CyclicBarrier(5);
     public static void main(String[] args) throws BrokenBarrierException, InterruptedException {
         System.out.println("begin");
 
@@ -13,7 +13,7 @@ public class CyclicBarrierDemo {
 
         cyclicBarrier.await();
 
-        //cyclicBarrier.await();
+        cyclicBarrier.await();
 
     }
     public void sayHello(){

@@ -7,13 +7,14 @@ import java.util.concurrent.BlockingQueue;
 public class ArrayBlockingQueueDemo {
     public static void main(String[] args) throws InterruptedException {
         ArrayBlockingQueue arrayBlockingQueue = new ArrayBlockingQueue(3);
-       // demoAddMethod(arrayBlockingQueue);
+        demoAddMethod(arrayBlockingQueue);
         //Queue 添加操作中offer 要多于 add方法（安全性考虑）
-        demoofferMethod(arrayBlockingQueue);
-        System.out.println(arrayBlockingQueue);
+        //demoofferMethod(arrayBlockingQueue);
+        //System.out.println(arrayBlockingQueue);
 
         // BlockingQueue 要使用put方法多余offer方法（使其满足阻塞的语义）
-        demoputMethod(arrayBlockingQueue);
+        //demoputMethod(arrayBlockingQueue);
+        System.out.println(arrayBlockingQueue);
     }
     private static void demoofferMethod(BlockingQueue queue){
         queue.offer(1);
@@ -33,7 +34,6 @@ public class ArrayBlockingQueueDemo {
         queue.put(1);
         queue.put(2);
         queue.put(3);
-        //如果超过3个 报错  Queue full
         queue.put(4);
     }
 

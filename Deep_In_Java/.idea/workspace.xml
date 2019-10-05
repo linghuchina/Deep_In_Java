@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143ec6d3-2c5d-44bf-9dbb-db9451d508a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/BasicAlgorithm/hashmapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/CopyOnWriteDemo/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/CopyOnWriteDemo/CopyOnWriteArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/PythonLeetCodeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/Concurrent/ConcurrenthashMapIteratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/ThreadFrameWorkDemo/ThreadPoolExceptionQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/ThreadFrameWorkDemo/ThreadPoolExceptionQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibaba/java/CollectionFramework/BasicAlgorithm/hashmapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibaba/java/CollectionFramework/BasicAlgorithm/hashmapDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +37,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/SpringDemo/SpringTransactionDemo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="711">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="152">
+              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="402" column="16" selection-start-line="402" selection-start-column="16" selection-end-line="402" selection-end-column="16" />
+              <folding>
+                <element signature="e#6812#6813#0" expanded="true" />
+                <element signature="e#6849#6850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/leetcode1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/ManyProducerAndConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1045">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/PythonLeetCodeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/SoutOneTwoThreeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1007">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding>
+                <element signature="e#2226#2227#0" expanded="true" />
+                <element signature="e#2278#2279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/CyclicBarrierDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CyclicBarrier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="292" column="11" selection-start-line="292" selection-start-column="11" selection-end-line="292" selection-end-column="11" />
+              <folding>
+                <element signature="e#9581#9582#0" expanded="true" />
+                <element signature="e#9616#9617#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -65,6 +164,7 @@
       <find>unmodifi</find>
       <find>toStringCache</find>
       <find>tid</find>
+      <find>map</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -80,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/threadstart/ThreadInterruptDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/ThreadWaitAndNotifyDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/Excelutil/TargetBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/Excelutil/UtilExcel.java" />
@@ -117,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/leetcode1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/AsycProducerAndConsumerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ConcurrentDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/ManyProducerAndConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/SoutOneTwoThreeDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode3.java" />
@@ -126,11 +224,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/CopyOnWriteDemo/CopyOnWriteArrayListDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/CopyOnWriteDemo/ConcurrentHashMapDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlocking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/basic/PoolofThreadDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/ThreadFrameWorkDemo/ThreadPoolExceptionQuestion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/BasicAlgorithm/hashmap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/BasicAlgorithm/hashmapDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/Concurrent/ConcurrenthashMapIteratorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/CyclicBarrierDemo.java" />
       </list>
     </option>
   </component>
@@ -153,9 +253,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1294" />
+    <option name="x" value="-88" />
+    <option name="width" value="1583" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -164,8 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +297,74 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_In_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionFramework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_In_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_In_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="SetFrameWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_In_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCodeDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_In_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_In_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ManyProducerAndConsumer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_In_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SoutOneTwoThreeDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="deep-in-java" type="b2602c69:ProjectViewProjectNode" />
@@ -285,7 +452,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.hashmapDemo">
+  <component name="RunManager" selected="Application.CyclicBarrierDemo">
     <configuration name="ArrayBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alibaba.java.ConcurrentFunction.concurrentpakage.ArrayBlockingQueueDemo" />
       <module name="deep-in-java" />
@@ -299,8 +466,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alibaba.java.LeetCodeDemo.LeetCode3" />
+    <configuration name="ConcurrenthashMapIteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.java.CollectionFramework.Concurrent.ConcurrenthashMapIteratorDemo" />
+      <module name="deep-in-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alibaba.java.CollectionFramework.Concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alibaba.java.LeetCodeDemo.CyclicBarrierDemo" />
       <module name="deep-in-java" />
       <extension name="coverage">
         <pattern>
@@ -314,19 +494,6 @@
     </configuration>
     <configuration name="LeetCode4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alibaba.java.LeetCodeDemo.LeetCode4" />
-      <module name="deep-in-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alibaba.java.LeetCodeDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PythonLeetCodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.alibaba.java.LeetCodeDemo.PythonLeetCodeDemo" />
       <module name="deep-in-java" />
       <extension name="coverage">
         <pattern>
@@ -353,11 +520,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hashmapDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.ArrayBlockingQueueDemo" />
+        <item itemvalue="Application.ConcurrenthashMapIteratorDemo" />
+        <item itemvalue="Application.hashmapDemo" />
         <item itemvalue="Application.LeetCode4" />
-        <item itemvalue="Application.PythonLeetCodeDemo" />
-        <item itemvalue="Application.LeetCode3" />
       </list>
     </recent_temporary>
   </component>
@@ -435,11 +602,14 @@
       <workItem from="1569837162538" duration="5660000" />
       <workItem from="1569851692527" duration="5056000" />
       <workItem from="1569899646511" duration="15057000" />
+      <workItem from="1569990457713" duration="611000" />
+      <workItem from="1570160824962" duration="10373000" />
+      <workItem from="1570255099818" duration="2670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218145000" />
+    <option name="totallyTimeSpent" value="231799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,10 +621,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45810664" visible="true" weight="0.24403815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45810664" visible="true" weight="0.17885533" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -464,7 +634,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861805" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17410229" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.083786726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3405876" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
@@ -535,6 +705,12 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/SetFrameWork/InteratorSetDemo.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -543,127 +719,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/ReentranLockDemo/ReentrantReadWriteLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="291" column="21" lean-forward="true" selection-start-line="291" selection-start-column="21" selection-end-line="291" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/ReentranLockDemo/ReentrantLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/ThreadWaitAndNotifyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="63" lean-forward="true" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/JoinDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/function/IntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/SoutOneTwoThreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding>
-            <element signature="e#2226#2227#0" expanded="true" />
-            <element signature="e#2278#2279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/ManyProducerAndConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/leetcode1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24738">
-          <caret line="1356" column="18" selection-start-line="1356" selection-start-column="18" selection-end-line="1356" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/CopyOnWriteDemo/CopyOnWriteArrayListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -671,34 +726,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/CopyOnWriteDemo/ConcurrentHashMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3743">
-          <caret line="231" selection-start-line="231" selection-end-line="231" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5643">
-          <caret line="346" column="16" selection-start-line="346" selection-start-column="16" selection-end-line="346" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/PythonLeetCodeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -737,23 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="620" column="20" selection-start-line="620" selection-start-column="8" selection-end-line="620" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/basic/PoolofThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -766,17 +776,6 @@
         <state>
           <folding>
             <element signature="e#0#37263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="148" column="29" lean-forward="true" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,17 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14668">
           <caret line="828" column="17" selection-start-line="828" selection-start-column="17" selection-end-line="828" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CopyOnWriteArraySet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5320">
-          <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
-          <folding>
-            <element signature="e#12658#12659#0" expanded="true" />
-            <element signature="e#12694#12695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,17 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding>
-            <element signature="e#2496#2497#0" expanded="true" />
-            <element signature="e#2561#2562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/AbstractSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -909,54 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="461" selection-start-line="461" selection-end-line="461" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="197" column="42" lean-forward="true" selection-start-line="197" selection-start-column="42" selection-end-line="197" selection-end-column="42" />
-          <folding>
-            <element signature="e#3422#3423#0" expanded="true" />
-            <element signature="e#3450#3451#0" expanded="true" />
-            <element signature="e#3528#3529#0" expanded="true" />
-            <element signature="e#3553#3554#0" expanded="true" />
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#13692#13693#0" expanded="true" />
-            <element signature="e#13737#13738#0" expanded="true" />
-            <element signature="e#39044#39045#0" expanded="true" />
-            <element signature="e#39100#39101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
-          <folding>
-            <element signature="e#13541#14625#0" />
-            <element signature="e#14631#14742#0" />
-            <element signature="e#15541#15896#0" />
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#24331#24332#0" expanded="true" />
-            <element signature="e#24396#24397#0" expanded="true" />
-            <element signature="e#40356#40357#0" expanded="true" />
-            <element signature="e#40406#40407#0" expanded="true" />
-            <element signature="e#55464#55465#0" expanded="true" />
-            <element signature="e#55507#55508#0" expanded="true" />
-            <element signature="e#71651#71652#0" expanded="true" />
-            <element signature="e#71733#71734#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,8 +915,261 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/SpringDemo/SpringTransactionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="171">
+          <caret line="18" column="2" selection-start-line="14" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="281" column="16" lean-forward="true" selection-start-line="281" selection-start-column="16" selection-end-line="281" selection-end-column="16" />
+          <folding>
+            <element signature="e#13541#14625#0" />
+            <element signature="e#14631#14742#0" />
+            <element signature="e#15541#15896#0" />
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+            <element signature="e#40356#40357#0" expanded="true" />
+            <element signature="e#40406#40407#0" expanded="true" />
+            <element signature="e#55464#55465#0" expanded="true" />
+            <element signature="e#55507#55508#0" expanded="true" />
+            <element signature="e#71651#71652#0" expanded="true" />
+            <element signature="e#71733#71734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/CopyOnWriteDemo/ConcurrentHashMapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="1177" column="42" selection-start-line="1177" selection-start-column="42" selection-end-line="1177" selection-end-column="42" />
+          <folding>
+            <element signature="e#3422#3423#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3528#3529#0" expanded="true" />
+            <element signature="e#3553#3554#0" expanded="true" />
+            <element signature="e#3636#3637#0" expanded="true" />
+            <element signature="e#3675#3676#0" expanded="true" />
+            <element signature="e#13692#13693#0" expanded="true" />
+            <element signature="e#13737#13738#0" expanded="true" />
+            <element signature="e#39044#39045#0" expanded="true" />
+            <element signature="e#39100#39101#0" expanded="true" />
+            <element signature="e#42315#42316#0" expanded="true" />
+            <element signature="e#42380#42381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/CheckTypeCollectionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="1189" column="33" lean-forward="true" selection-start-line="1189" selection-start-column="33" selection-end-line="1189" selection-end-column="33" />
+          <folding>
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4902">
+          <caret line="303" column="32" selection-start-line="303" selection-start-column="32" selection-end-line="303" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/ArrayCopyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/SetFrameWork/InteratorSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="58" selection-start-column="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/Concurrent/ConcurrentHashmapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/CollectionFramework/Concurrent/ConcurrenthashMapIteratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6327">
+          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CopyOnWriteArraySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5320">
+          <caret line="347" column="23" selection-start-line="347" selection-start-column="23" selection-end-line="347" selection-end-column="23" />
+          <folding>
+            <element signature="e#3798#3799#0" expanded="true" />
+            <element signature="e#3833#3834#0" expanded="true" />
+            <element signature="e#12658#12659#0" expanded="true" />
+            <element signature="e#12694#12695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/ConcurrentFunction/concurrentpakage/ArrayBlockingQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="402" column="16" selection-start-line="402" selection-start-column="16" selection-end-line="402" selection-end-column="16" />
+          <folding>
+            <element signature="e#6812#6813#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/LeetCode4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/leetcode1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/ManyProducerAndConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1045">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/PythonLeetCodeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/SoutOneTwoThreeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="e#2226#2227#0" expanded="true" />
+            <element signature="e#2278#2279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="292" column="11" selection-start-line="292" selection-start-column="11" selection-end-line="292" selection-end-column="11" />
+          <folding>
+            <element signature="e#9581#9582#0" expanded="true" />
+            <element signature="e#9616#9617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/java/LeetCodeDemo/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
