@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_deep-in-java" default="compile.module.deep-in-java">
+  <dirname property="module.deep-in-java.basedir" file="${ant.file.module_deep-in-java}"/>
+  
+  <property name="module.jdk.home.deep-in-java" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.deep-in-java" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.deep-in-java" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.deep-in-java" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="deep-in-java.output.dir" value="${module.deep-in-java.basedir}/target/classes"/>
+  <property name="deep-in-java.testoutput.dir" value="${module.deep-in-java.basedir}/target/test-classes"/>
+  
+  <path id="deep-in-java.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="deep-in-java.module.production.classpath">
+    <path refid="${module.jdk.classpath.deep-in-java}"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.9.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.5.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.3.0.classpath"/>
+    <path refid="library.maven:_stax:stax-api:1.0.1.classpath"/>
+    <path refid="library.maven:_dom4j:dom4j:1.6.1.classpath"/>
+    <path refid="library.maven:_cn.hutool:hutool-all:4.5.1.classpath"/>
+    <path refid="library.maven:_xerces:xercesimpl:2.11.0.classpath"/>
+    <path refid="library.maven:_xml-apis:xml-apis:1.4.01.classpath"/>
+    <path refid="library.maven:_javax.servlet:javax.servlet-api:3.0.1.classpath"/>
+    <path refid="library.maven:_javax.servlet.jsp:jsp-api:2.1.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:2.3.classpath"/>
+    <path refid="library.maven:_org.springframework:5.2:unknown.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.0.2.release.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-oxm:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.0.2.release.classpath"/>
+    <path refid="library.maven:_aopalliance:aopalliance:1.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.0.2.release.classpath"/>
+  </path>
+  
+  <path id="deep-in-java.runtime.production.module.classpath">
+    <pathelement location="${deep-in-java.output.dir}"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.9.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.5.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.3.0.classpath"/>
+    <path refid="library.maven:_stax:stax-api:1.0.1.classpath"/>
+    <path refid="library.maven:_dom4j:dom4j:1.6.1.classpath"/>
+    <path refid="library.maven:_cn.hutool:hutool-all:4.5.1.classpath"/>
+    <path refid="library.maven:_xerces:xercesimpl:2.11.0.classpath"/>
+    <path refid="library.maven:_xml-apis:xml-apis:1.4.01.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:2.3.classpath"/>
+    <path refid="library.maven:_org.springframework:5.2:unknown.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.0.2.release.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-oxm:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.0.2.release.classpath"/>
+    <path refid="library.maven:_aopalliance:aopalliance:1.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.0.2.release.classpath"/>
+  </path>
+  
+  <path id="deep-in-java.module.classpath">
+    <path refid="${module.jdk.classpath.deep-in-java}"/>
+    <pathelement location="${deep-in-java.output.dir}"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.9.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.5.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.3.0.classpath"/>
+    <path refid="library.maven:_stax:stax-api:1.0.1.classpath"/>
+    <path refid="library.maven:_dom4j:dom4j:1.6.1.classpath"/>
+    <path refid="library.maven:_cn.hutool:hutool-all:4.5.1.classpath"/>
+    <path refid="library.maven:_xerces:xercesimpl:2.11.0.classpath"/>
+    <path refid="library.maven:_xml-apis:xml-apis:1.4.01.classpath"/>
+    <path refid="library.maven:_javax.servlet:javax.servlet-api:3.0.1.classpath"/>
+    <path refid="library.maven:_javax.servlet.jsp:jsp-api:2.1.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:2.3.classpath"/>
+    <path refid="library.maven:_org.springframework:5.2:unknown.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.0.2.release.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-oxm:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.0.2.release.classpath"/>
+    <path refid="library.maven:_aopalliance:aopalliance:1.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.0.2.release.classpath"/>
+  </path>
+  
+  <path id="deep-in-java.runtime.module.classpath">
+    <pathelement location="${deep-in-java.testoutput.dir}"/>
+    <pathelement location="${deep-in-java.output.dir}"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi:3.9.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.5.classpath"/>
+    <path refid="library.maven:_org.apache.poi:poi-ooxml-schemas:3.9.classpath"/>
+    <path refid="library.maven:_org.apache.xmlbeans:xmlbeans:2.3.0.classpath"/>
+    <path refid="library.maven:_stax:stax-api:1.0.1.classpath"/>
+    <path refid="library.maven:_dom4j:dom4j:1.6.1.classpath"/>
+    <path refid="library.maven:_cn.hutool:hutool-all:4.5.1.classpath"/>
+    <path refid="library.maven:_xerces:xercesimpl:2.11.0.classpath"/>
+    <path refid="library.maven:_xml-apis:xml-apis:1.4.01.classpath"/>
+    <path refid="library.maven:_javax.servlet:javax.servlet-api:3.0.1.classpath"/>
+    <path refid="library.maven:_javax.servlet.jsp:jsp-api:2.1.classpath"/>
+    <path refid="library.maven:_commons-io:commons-io:2.3.classpath"/>
+    <path refid="library.maven:_org.springframework:5.2:unknown.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-core:4.0.2.release.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.1.3.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-web:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-beans:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-oxm:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-tx:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-jdbc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-webmvc:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-expression:4.0.2.release.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-aop:4.0.2.release.classpath"/>
+    <path refid="library.maven:_aopalliance:aopalliance:1.0.classpath"/>
+    <path refid="library.maven:_org.springframework:spring-context-support:4.0.2.release.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.deep-in-java">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.deep-in-java">
+    <patternset refid="excluded.from.module.deep-in-java"/>
+  </patternset>
+  
+  <path id="deep-in-java.module.sourcepath">
+    <dirset dir="${module.deep-in-java.basedir}">
+      <include name="src/main/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.deep-in-java" depends="compile.module.deep-in-java.production,compile.module.deep-in-java.tests" description="Compile module deep-in-java"/>
+  
+  <target name="compile.module.deep-in-java.production" depends="register.custom.compilers" description="Compile module deep-in-java; production classes">
+    <mkdir dir="${deep-in-java.output.dir}"/>
+    <javac2 destdir="${deep-in-java.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.deep-in-java}/javac">
+      <compilerarg line="${compiler.args.deep-in-java}"/>
+      <bootclasspath refid="deep-in-java.module.bootclasspath"/>
+      <classpath refid="deep-in-java.module.production.classpath"/>
+      <src refid="deep-in-java.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.deep-in-java"/>
+    </javac2>
+    
+    <copy todir="${deep-in-java.output.dir}">
+      <fileset dir="${module.deep-in-java.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.deep-in-java.tests" depends="register.custom.compilers,compile.module.deep-in-java.production" description="compile module deep-in-java; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.deep-in-java" description="cleanup module">
+    <delete dir="${deep-in-java.output.dir}"/>
+    <delete dir="${deep-in-java.testoutput.dir}"/>
+  </target>
+</project>
